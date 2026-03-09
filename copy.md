@@ -1,56 +1,69 @@
-# Copy - Método Funil IA (Gravado)
+# Copy - Método Funil IA
 
 ## Hero
-- Headline: Estruture e coloque no ar seu funil Low Ticket em 2 horas usando IA
-- Subheadline: Tenha acesso imediato ao passo a passo gravado para estruturar sua oferta do zero ao ar — sem precisar de equipe ou semanas de planejamento.
-- CTA: QUERO TER ACESSO IMEDIATO (R$ 37)
+- Headline: Seu produto low ticket no ar. Sua página vendendo. Em 2 horas.
+- Subheadline: O **Protocolo Antigravity** — uma engenharia de agentes autônomos que coloca sua oferta no ar por você — sem equipe, sem mensalidade de ferramentas, sem precisar de habilidades técnicas.
+- CTA: QUERO ATIVAR O PROTOCOLO (R$ 37)
 
 ## Seção: O Problema
-- Título: Você tem a oferta, mas a complexidade te paralisa.
-- Conteúdo: O que trava o seu lançamento não é falta de talento. É depender de copywriter, designer, gestor de tráfego e semanas de idas e vindas. Isso custava caro e demorava muito... até a IA mudar o jogo.
+- Título: Você trava antes de começar. E a culpa não é sua.
+- Conteúdo:
+  O problema não é falta de ideia. É que lançar parece exigir uma equipe inteira: alguém para escrever, alguém para criar o visual, alguém para montar o site, alguém para anunciar. Sem isso, você vive em um ciclo infinito de paralisia.
 
-## Seção: A Solução
-- Título: O fim da barreira técnica: O que custava R$ 5.000 agora custa centavos e algumas horas.
-- Conteúdo: Desenvolvi um **treinamento prático e direto** para você assistir e aplicar. Vou te mostrar, clique a clique, como usar a Inteligência Artificial para colocar sua oferta no ar hoje mesmo. Sem enrolação, sem teoria desnecessária. Apenas execução.
+  Mesmo com o mar de IAs disponíveis, você ainda se perde nos comandos (prompts) e gasta fortunas em mensalidades que nunca se pagam. Você não precisa de mais um "curso de ChatGPT", você precisa de execução.
+
+## Seção: A Solução (O Mecanismo)
+- Título: Conheça o Protocolo Antigravity: A Engenharia que Lança por Você.
+- Conteúdo:
+  O **Protocolo Antigravity** não é um curso. É um sistema interativo de **Agentes Autônomos de IA** que trabalham em sincronia para construir seu lançamento.
+
+  Enquanto outros ensinam a "usar a ferramenta", nós entregamos o resultado final. São especialistas digitais que te guiam em cada decisão. Você responde as perguntas, aprova os direcionamentos e eles executam a parte pesada.
+
+  - **Agente Estrategista:** Valida seu nicho, avatar e oferta.
+  - **Agente Copywriter:** Escreve sua página inteira focada em conversão.
+  - **Agente Web Designer:** Cria o layout visual profissional.
+  - **Agente DevOps:** Coloca seu site no ar, configurado e pronto para vender.
+
+  Tudo isso usando ferramentas 100% gratuitas. O único investimento é o acesso ao Protocolo.
+
+## Seção: O Que Você Vai Conquistar
+- Título: Ao final dessas 2 horas, você tem:
+- Conteúdo:
+  - **Produto Definido** — Nicho e oferta validados pela IA com base em dados reais.
+  - **Copy de Alta Conversão** — O ângulo exato para vender seu low ticket.
+  - **Página de Vendas Profissional** — Visual premium, otimizada para celular.
+  - **Lançamento Concluído** — Seu link pronto para receber tráfego e vendas hoje.
 
 ## Seção: Para Quem É
-- Título: Este treinamento foi feito para você se:
-- Conteúdo: 
-  - Você quer lançar seu produto low ticket imediatamente, sem esperar por uma data específica.
-  - Acha que precisa de uma equipe enorme só para testar uma ideia.
-  - Tem uma oferta, mas a parte técnica e estratégica parece um "bicho de sete cabeças".
-
-## Seção: O Que Você Vai Aprender (Acesso Instantâneo)
-- Título: O conteúdo completo que você vai dominar:
+- Título: O Protocolo Antigravity foi feito para você se:
 - Conteúdo:
-  - **Copy com IA:** Como gerar toda a sua página de vendas em minutos usando prompts validados.
-  - **Página Pronta:** Como montar sua estrutura visual de forma simples, elegante e profissional.
-  - **Anúncios de Alta Performance:** Use a IA para criar criativos que atraem cliques e vendas.
-  - **Tráfego sem Mistério:** O guia para subir suas campanhas com baixo orçamento e alta escala.
+  - Você quer colocar um produto digital no ar sem gastar R$ 3.000+ com freelancers.
+  - Já tentou criar sua landing page, mas desistiu na complexidade técnica.
+  - Quer aproveitar o poder da IA como um **colaborador de execução**, não apenas para gerar textos genéricos.
 
 ## Seção: Autoridade
-- Título: Quem vai te guiar?
-- Conteúdo: Sou o **Victor Viana**. Nos últimos 5 anos, participei de mais de 100 projetos digitais, gerando mais de R$ 10 milhões em resultados. Sou fundador do Metrika Pro e pós-graduado pela FGV. Transformei toda a minha experiência prática em um método guiado por IA para você nunca mais travar na hora de lançar.
+- Título: Quem criou a Engenharia?
+- Conteúdo: Sou o **Victor Viana**. Nos últimos 5 anos, participei de mais de 100 projetos digitais, gerando mais de R$ 10 milhões em resultados do checkout. Sou fundador do Metrika Pro e pós-graduado pela FGV. Desenvolvi o Protocolo Antigravity para democratizar a tecnologia de ponta, permitindo que qualquer pessoa lance seu projeto com a precisão de uma agência de elite.
 
 ## Seção: Ancoragem e Oferta
-- Título: O caminho mais rápido e barato para lucrar.
+- Título: O seu lançamento pelo preço de um almoço.
 - Conteúdo:
-  - No modelo tradicional, você gastaria semanas e mais de R$ 5.000 com profissionais.
-  - Aqui, você recebe o mapa completo para fazer tudo sozinho, em poucas horas.
-  - **Acesso de 12 Meses:** Assista e revise quando quiser durante 1 ano.
-  - **Preço Especial:** De ~~R$ 297~~ por apenas **R$ 37**.
-  - CTA: QUERO MEU ACESSO AGORA
+  - **Agência/Freelancers:** Copywriter + Designer + Setup — R$ 5.000+ e dias de espera.
+  - **Protocolo Antigravity:** Sua oferta no ar em 120 minutos. Ferramentas gratuitas. R$ 37.
+  - **Acesso de 1 Ano:** Use para lançar quantos produtos quiser durante 12 meses.
+  - **Oferta de Lançamento:** De ~~R$ 297~~ por apenas **R$ 37**.
+- CTA: QUERO ATIVAR O PROTOCOLO AGORA
 
 ## FAQ
-- Pergunta: O curso é ao vivo?
-  Resposta: Não. Este é um treinamento gravado com acesso imediato, para você poder começar agora mesmo e rever quantas vezes precisar.
-- Pergunta: Preciso saber usar IA?
-  Resposta: Não! Eu entrego os comandos (prompts) prontos. É só copiar, colar e ver a mágica acontecer.
-- Pergunta: Recebo acesso na hora?
-  Resposta: Sim! Assim que o pagamento for confirmado, você recebe os dados de acesso no seu e-mail.
-- Pergunta: Tem suporte para dúvidas?
-  Resposta: Sim, você pode deixar suas dúvidas abaixo das aulas que eu mesmo respondo.
+- Pergunta: O que é exatamente esse Protocolo?
+  Resposta: É uma implementação guiada por agentes de IA inteligentes que fazem o trabalho técnico e de criação por você, dentro do ambiente Antigravity.
+- Pergunta: Preciso pagar ferramentas extras?
+  Resposta: Não. O Protocolo foi desenhado para usar apenas recursos gratuitos. Seu único custo é o acesso à tecnologia.
+- Pergunta: E se eu não tiver um produto pronto?
+  Resposta: O Agente Estrategista te ajuda a definir sua oferta logo no início do processo.
+- Pergunta: É difícil de usar?
+  Resposta: É como conversar no WhatsApp. Você responde perguntas simples e a engenharia de agentes cuida de toda a montagem.
 
 ## Garantia
-- Título: Garantia Incondicional de 7 Dias.
-- Conteúdo: Se você assistir ao conteúdo e decidir que não é para você, basta solicitar o reembolso em até 7 dias. Devolvo 100% do seu dinheiro sem burocracia. O risco é todo meu.
+- Título: Garantia de Blindagem Anti-Risco.
+- Conteúdo: Use o Protocolo por 7 dias. Se você não sentir que os Agentes Autônomos economizaram meses do seu tempo, devolvo seu dinheiro integralmente. Sem perguntas, sem burocracia.

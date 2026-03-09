@@ -4,444 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imersão IA - Funil Low Ticket</title>
+    <title>Protocolo Antigravity | Engenharia de Lançamento</title>
 
-    <!-- Preconnect e Fontes -->
-    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <!-- Preconnect e Fontes Premium (Anthropic Style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=general-sans@400,500,600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap"
         rel="stylesheet">
-
-    <!-- CSS Estático -->
-    <link rel="stylesheet" href="style.css">
 
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Phosphor Icons para ícones modernos -->
+    <!-- CSS Estático -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 </head>
 
-<body>
+<body class="noise">
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <!-- Background elements for Light Mode -->
-        <div class="hero-bg-orb orb-1"></div>
-        <div class="hero-bg-orb orb-2"></div>
-        <div class="hero-bg-grid"></div>
+    <!-- Header / Nav -->
+    <nav class="nav-minimal">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-symbol">A</span>
+                <span class="logo-text">Antigravity</span>
+            </div>
+            <div class="nav-actions">
+                <a href="#oferta" class="nav-link">O Protocolo</a>
+                <a href="#checkout" class="btn btn-nav">Ativar Agora</a>
+            </div>
+        </div>
+    </nav>
 
-        <div class="container hero-container">
-            <!-- Coluna Esquerda: Texto -->
-            <div class="hero-content">
-                <div class="badge">
-                    <span class="badge-dot"></span>
-                    Método Gravado - Acesso Imediato
+    <!-- Hero Section: Arquetipo Split Assimetrico -->
+    <section class="hero-engineering">
+        <div class="container hero-grid">
+            <!-- Coluna Esquerda: Conteúdo Denso -->
+            <div class="hero-text">
+                <div class="badge-tech">
+                    <span class="status-dot"></span>
+                    Engenharia de Agentes Autônomos v2.0
                 </div>
 
                 <h1 class="headline">
-                    Estruture e coloque no ar seu funil Low Ticket em <span class="text-gradient">2 horas</span> usando
-                    IA
+                    Seu produto low ticket no ar. <br />
+                    <span class="serif-accent">Sua página vendendo.</span> <br />
+                    Em 2 horas.
                 </h1>
 
                 <p class="subheadline">
-                    Tenha acesso imediato ao passo a passo gravado para estruturar sua oferta do zero ao ar — sem
-                    precisar de equipe ou semanas de planejamento.
+                    O **Protocolo Antigravity** — uma engenharia de agentes autônomos que coloca sua oferta no ar por
+                    você — sem equipe, sem mensalidade de ferramentas, sem precisar de habilidades técnicas.
                 </p>
 
-                <div class="hero-actions">
-                    <a href="#oferta" class="btn btn-primary">
-                        QUERO TER ACESSO IMEDIATO <span class="btn-price">(R$ 37)</span>
+                <div class="hero-actions-group">
+                    <a href="#oferta" class="btn btn-primary-tech">
+                        ATIVAR PROTOCOLO <span class="price-pill">R$ 37</span>
                         <i class="ph ph-arrow-right"></i>
                     </a>
-                </div>
-                <div class="hero-trust">
-                    <div class="avatars">
-                        <div class="avatar" style="background: #e2e8f0; z-index: 3;"></div>
-                        <div class="avatar" style="background: #cbd5e1; z-index: 2;"></div>
-                        <div class="avatar" style="background: #94a3b8; z-index: 1;"></div>
+                    <div class="hero-social-proof">
+                        <div class="avatars-group">
+                            <img src="https://i.pravatar.cc/100?u=1" alt="User">
+                            <img src="https://i.pravatar.cc/100?u=2" alt="User">
+                            <img src="https://i.pravatar.cc/100?u=3" alt="User">
+                        </div>
+                        <p>Victor Viana e +1.500 engenheiros digitais</p>
                     </div>
-                    <span>Acesso liberado imediatamente após a compra</span>
                 </div>
             </div>
 
-            <!-- Coluna Direita: Visual Premium Glassmorphism -->
-            <div class="hero-visual">
-                <div class="floating-cards-wrapper">
-                    <!-- Glass Card 1 -->
-                    <div class="glass-card card-top">
-                        <div class="card-header">
-                            <div class="icon-box"><i class="ph-fill ph-magic-wand"></i></div>
-                            <div>
-                                <h4>Copy de Vendas</h4>
-                                <p>Gerada em 15 min</p>
-                            </div>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-fill"></div>
-                        </div>
+            <!-- Coluna Direita: Visual Technical (Hyros Style) -->
+            <div class="hero-visual-tech">
+                <div class="terminal-frame" data-aos-active="true">
+                    <div class="terminal-header">
+                        <div class="terminal-dots"><span></span><span></span><span></span></div>
+                        <div class="terminal-title">antigravity --run launch</div>
                     </div>
+                    <div class="terminal-body">
+                        <div class="log-line text-blue">> Inicializando Agente Estrategista...</div>
+                        <div class="log-line text-green">[SUCESSO] Avatar definido e validado.</div>
+                        <div class="log-line text-blue">> Ativando Agente Copywriter...</div>
+                        <div class="log-line text-muted">// Gerando headline de alta conversão...</div>
+                        <div class="log-line text-green">[SUCESSO] Copy da página de vendas concluída.</div>
+                        <div class="log-line text-blue">> Deploying Web Designer Agent...</div>
+                        <div class="log-line text-muted">Building layout components...</div>
+                        <div class="cursor-line">_</div>
+                    </div>
+                </div>
 
-                    <!-- Glass Card 2 -->
-                    <div class="glass-card card-middle">
-                        <div class="card-header">
-                            <div class="icon-box success"><i class="ph-fill ph-check-circle"></i></div>
-                            <div>
-                                <h4>Página no Ar</h4>
-                                <p>Publicada com sucesso</p>
-                            </div>
-                        </div>
-                        <div class="metrics">
-                            <div class="metric"><span class="label">Conversão</span><span class="value">Acelerada</span>
-                            </div>
-                            <div class="metric"><span class="label">Custo</span><span class="value">R$ 0,00</span></div>
-                        </div>
-                    </div>
-
-                    <!-- Glass Card 3 -->
-                    <div class="glass-card card-bottom">
-                        <div class="card-header">
-                            <div class="icon-box warning"><i class="ph-fill ph-target"></i></div>
-                            <div>
-                                <h4>Campanha Rodando</h4>
-                                <p>Anúncios otimizados por IA</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Floating Metric Cards -->
+                <div class="metric-card card-a">
+                    <div class="metric-label">Tempo de Lançamento</div>
+                    <div class="metric-value">1:54:12</div>
+                    <div class="metric-trend"><i class="ph ph-trend-up"></i> +89% velocidade</div>
+                </div>
+                <div class="metric-card card-b">
+                    <div class="metric-label">Custo Operacional</div>
+                    <div class="metric-value">R$ 0,00</div>
+                    <div class="metric-trend">Ferramentas 100% Free</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 2: O Problema -->
-    <section class="section problem">
-        <div class="container problem-container">
-            <div class="problem-header">
-                <h2 class="section-title">Você tem a oferta,<br />mas a <span class="text-gradient-red">complexidade te
-                        paralisa.</span></h2>
-                <div class="section-divider"></div>
-            </div>
-
-            <div class="problem-content">
-                <p class="problem-text">O que trava o seu lançamento não é falta de talento. É depender de copywriter,
-                    designer, gestor de tráfego e semanas de idas e vindas.</p>
-                <p class="problem-highlight">Isso custava caro e demorava muito... <strong>até a IA mudar o
-                        jogo.</strong></p>
-            </div>
-
-            <!-- Bento Box Grid para dores -->
-            <div class="bento-grid">
-                <div class="bento-item glass-panel">
-                    <i class="ph-fill ph-pen-nib"></i>
-                    <h3>Copywriter</h3>
-                    <p class="cost">~R$ 2.000</p>
+    <!-- Seção 1: O Fim da Era dos Cursos -->
+    <section class="section segment-comparison">
+        <div class="container">
+            <div class="comparison-grid">
+                <div class="comp-box old-way">
+                    <span class="label">O Modelo Antigo</span>
+                    <h3 class="comp-title">A Paralisia por Excesso</h3>
+                    <p>Assistir aulas infinitas, tentar configurar domínios complexos, pagar copywriters caros e morrer
+                        na praia antes de subir o primeiro anúncio.</p>
                 </div>
-                <div class="bento-item glass-panel">
-                    <i class="ph-fill ph-paint-brush-broad"></i>
-                    <h3>Designer</h3>
-                    <p class="cost">~R$ 1.500</p>
+                <div class="comp-icon">
+                    <i class="ph-bold ph-arrow-right"></i>
                 </div>
-                <div class="bento-item glass-panel">
-                    <i class="ph-fill ph-trend-up"></i>
-                    <h3>Tráfego</h3>
-                    <p class="cost">~R$ 1.500</p>
+                <div class="comp-box new-way">
+                    <span class="label">O Protocolo Antigravity</span>
+                    <h3 class="comp-title">Engenharia de Execução</h3>
+                    <p>Você não assiste, você faz. Os agentes autônomos tomam as decisões difíceis e você apenas aprova
+                        a construção final. Em 2 horas o link está pronto.</p>
                 </div>
-                <div class="bento-item glass-panel danger">
-                    <i class="ph-fill ph-timer"></i>
-                    <h3>Tempo</h3>
-                    <p class="cost">2 a 4 Semanas</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 3: A Solução -->
-    <section class="section solution" id="solucao">
-        <div class="solution-bg-overlay"></div>
-        <div class="container solution-container">
-            <div class="solution-header">
-                <h2 class="section-title text-light">
-                    O fim da barreira técnica: O que custava <span class="strikethrough text-tertiary">R$ 5.000</span>
-                    agora custa <span class="text-gradient">centavos</span> e algumas horas.
-                </h2>
-                <p class="solution-text text-light-muted">
-                    Desenvolvi um <strong>treinamento prático e direto</strong> para você assistir e aplicar. Vou te
-                    mostrar, clique a clique, como usar a Inteligência Artificial para colocar sua oferta no ar hoje
-                    mesmo. Sem enrolação, sem teoria desnecessária. Apenas execução.
-                </p>
-            </div>
-
-            <div class="solution-player-wrapper" data-aos="fade-up" data-aos-easing="ease-out-cubic"
-                data-aos-duration="1000">
-                <div class="video-mockup">
-                    <div class="mockup-header">
-                        <div class="mockup-dots">
-                            <span></span><span></span><span></span>
-                        </div>
-                        <div class="mockup-title">Aula 1 - Criando a Oferta com IA</div>
-                    </div>
-                    <div class="mockup-body">
-                        <img src="/.netlify/images?url=https://images.unsplash.com/photo-1627398246734-d8dd6df83db2?q=80&w=900&auto=format&fit=crop"
-                            alt="Mockup do Player de Vídeo" class="mockup-img" width="900" height="506" loading="lazy">
-                        <div class="play-button-overlay">
-                            <button class="play-btn" aria-label="Play Video">
-                                <i class="ph-fill ph-play"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 4: Para Quem É -->
-    <section class="section target-audience" id="para-quem">
-        <div class="container target-container">
-            <div class="target-header text-center" data-aos="fade-up">
-                <h2 class="section-title">
-                    <span class="text-tertiary">Este treinamento foi</span> <br />
-                    feito para você se:
-                </h2>
-            </div>
-
-            <div class="target-grid">
-                <!-- Item 1 -->
-                <div class="target-item" data-aos="fade-left" data-aos-delay="100">
-                    <div class="target-icon-wrapper">
-                        <i class="ph-fill ph-check-circle"></i>
-                    </div>
-                    <p class="target-text">Você quer lançar seu produto low ticket imediatamente, sem esperar por uma
-                        data específica.</p>
-                </div>
-
-                <!-- Item 2 -->
-                <div class="target-item" data-aos="fade-left" data-aos-delay="200">
-                    <div class="target-icon-wrapper">
-                        <i class="ph-fill ph-check-circle"></i>
-                    </div>
-                    <p class="target-text">Acha que precisa de uma equipe enorme só para testar uma ideia.</p>
-                </div>
-
-                <!-- Item 3 -->
-                <div class="target-item" data-aos="fade-left" data-aos-delay="300">
-                    <div class="target-icon-wrapper">
-                        <i class="ph-fill ph-check-circle"></i>
-                    </div>
-                    <p class="target-text">Tem uma oferta, mas a parte técnica e estratégica parece um "bicho de sete
-                        cabeças".</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 5: O Que Você Vai Aprender (Acesso Instantâneo) -->
-    <section class="section learn" id="aprender">
-        <div class="container learn-container">
-            <div class="learn-sticky-header">
-                <h2 class="section-title text-primary-dark">
-                    O conteúdo completo que você vai dominar:
-                </h2>
-            </div>
-
-            <div class="learn-content">
-                <!-- Card 1 -->
-                <div class="learn-card" data-aos="fade-up" data-aos-offset="200">
-                    <span class="learn-number">01</span>
-                    <div class="learn-card-inner">
-                        <h3 class="learn-card-title">Copy com IA</h3>
-                        <p class="learn-card-text">Como gerar toda a sua página de vendas em minutos usando prompts
-                            validados.</p>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="learn-card" data-aos="fade-up" data-aos-offset="200">
-                    <span class="learn-number">02</span>
-                    <div class="learn-card-inner">
-                        <h3 class="learn-card-title">Página Pronta</h3>
-                        <p class="learn-card-text">Como montar sua estrutura visual de forma simples, elegante e
-                            profissional.</p>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="learn-card" data-aos="fade-up" data-aos-offset="200">
-                    <span class="learn-number">03</span>
-                    <div class="learn-card-inner">
-                        <h3 class="learn-card-title">Anúncios de Alta Performance</h3>
-                        <p class="learn-card-text">Use a IA para criar criativos que atraem cliques e vendas.</p>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="learn-card" data-aos="fade-up" data-aos-offset="200">
-                    <span class="learn-number">04</span>
-                    <div class="learn-card-inner">
-                        <h3 class="learn-card-title">Tráfego sem Mistério</h3>
-                        <p class="learn-card-text">O guia para subir suas campanhas com baixo orçamento e alta escala.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 6: Autoridade -->
-    <section class="section authority" id="autoridade">
-        <div class="container authority-container">
-            <!-- Coluna Esquerda: 40% (Imagem) -->
-            <div class="authority-image-col">
-                <div class="authority-image-wrapper" data-aos="fade-right">
-                    <img src="/.netlify/images?url=https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=600&auto=format&fit=crop"
-                        alt="Victor Viana - Autor do Método" width="600" height="800" class="authority-img"
-                        loading="lazy">
-                    <div class="duotone-overlay"></div>
-                    <div class="authority-badge">Metrika Pro</div>
-                </div>
-            </div>
-
-            <!-- Coluna Direita: 60% (Texto) -->
-            <div class="authority-text-col" data-aos="fade-left">
-                <i class="ph-fill ph-quotes authority-quotes"></i>
-                <h2 class="section-title">Quem vai te guiar?</h2>
-                <div class="authority-content">
-                    <p>Sou o <strong>Victor Viana</strong>. Nos últimos 5 anos, participei de mais de 100 projetos
-                        digitais, gerando mais de R$ 10 milhões em resultados.</p>
-                    <p>Sou fundador do Metrika Pro e pós-graduado pela FGV. Transformei toda a minha experiência prática
-                        em um método guiado por IA para você nunca mais travar na hora de lançar.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 7: Ancoragem e Oferta Principal -->
-    <section class="section offer" id="oferta">
-        <div class="noise-overlay"></div>
-        <div class="container offer-container">
-            <div class="pricing-board" data-aos="fade-up" data-aos-duration="1000">
-                <div class="pricing-header">
-                    <h2 class="section-title text-light">O caminho mais rápido e <br /> barato para lucrar.</h2>
-
-                    <ul class="pricing-features">
-                        <li>
-                            <i class="ph-fill ph-check-circle"></i>
-                            <span>No modelo tradicional, você gastaria semanas e mais de R$ 5.000 com
-                                profissionais.</span>
-                        </li>
-                        <li>
-                            <i class="ph-fill ph-check-circle"></i>
-                            <span>Aqui, você recebe o mapa completo para fazer tudo sozinho, em poucas horas.</span>
-                        </li>
-                        <li class="highlight-feature">
-                            <i class="ph-fill ph-star"></i>
-                            <span><strong>Acesso de 12 Meses:</strong> Assista e revise quando quiser durante 1
-                                ano.</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="pricing-value">
-                    <div class="price-anchor">De <span class="strikethrough">R$ 297</span> por apenas</div>
-                    <div class="price-main text-gradient">R$ 37</div>
-                </div>
-
-                <div class="pricing-action">
-                    <a href="#checkout" class="btn btn-primary btn-pulse btn-lg">
-                        QUERO MEU ACESSO AGORA
-                        <i class="ph ph-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 8: FAQ -->
-    <section class="section faq" id="faq">
-        <div class="container faq-container">
-            <!-- Esquerda: sticky focus -->
-            <div class="faq-header-col" data-aos="fade-right">
-                <h2 class="section-title">Dúvidas<br>Comuns</h2>
-            </div>
-
-            <!-- Direita: Accordions -->
-            <div class="faq-list-col" data-aos="fade-left">
-                <!-- FAQ Item 1 -->
-                <div class="faq-item">
-                    <button class="faq-header" aria-expanded="false">
-                        <span class="faq-question">O curso é ao vivo?</span>
-                        <div class="faq-icon"><i class="ph ph-plus"></i></div>
-                    </button>
-                    <div class="faq-content">
-                        <div class="faq-body">
-                            <p>Não. Este é um treinamento gravado com acesso imediato, para você poder começar agora
-                                mesmo e rever quantas vezes precisar.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 2 -->
-                <div class="faq-item">
-                    <button class="faq-header" aria-expanded="false">
-                        <span class="faq-question">Preciso saber usar IA?</span>
-                        <div class="faq-icon"><i class="ph ph-plus"></i></div>
-                    </button>
-                    <div class="faq-content">
-                        <div class="faq-body">
-                            <p>Não! Eu entrego os comandos (prompts) prontos. É só copiar, colar e ver a mágica
-                                acontecer.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 3 -->
-                <div class="faq-item">
-                    <button class="faq-header" aria-expanded="false">
-                        <span class="faq-question">Recebo acesso na hora?</span>
-                        <div class="faq-icon"><i class="ph ph-plus"></i></div>
-                    </button>
-                    <div class="faq-content">
-                        <div class="faq-body">
-                            <p>Sim! Assim que o pagamento for confirmado, você recebe os dados de acesso no seu e-mail.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 4 -->
-                <div class="faq-item">
-                    <button class="faq-header" aria-expanded="false">
-                        <span class="faq-question">Tem suporte para dúvidas?</span>
-                        <div class="faq-icon"><i class="ph ph-plus"></i></div>
-                    </button>
-                    <div class="faq-content">
-                        <div class="faq-body">
-                            <p>Sim, você pode deixar suas dúvidas abaixo das aulas que eu mesmo respondo.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 9: Garantia -->
-    <section class="section guarantee">
-        <div class="container guarantee-container" data-aos="zoom-in">
-            <div class="guarantee-box">
-                <div class="guarantee-icon">
-                    <i class="ph-fill ph-seal-check"></i>
-                </div>
-                <h2 class="guarantee-title">Garantia Incondicional de 7 Dias.</h2>
-                <p class="guarantee-text">
-                    Se você assistir ao conteúdo e decidir que não é para você, basta solicitar o reembolso em até 7
-                    dias. Devolvo 100% do seu dinheiro sem burocracia. O risco é todo meu.
-                </p>
             </div>
         </div>
     </section>
 
     <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
-    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            disableMutationObserver: true
+        });
+    </script>
 </body>
 
 </html>
