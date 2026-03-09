@@ -722,6 +722,88 @@ body {
     padding-left: 2rem;
 }
 
+.authority-image-clip {
+    border-radius: 12px;
+    overflow: visible;
+    /* Permitir que as fotos flutuem para fora */
+    position: relative;
+    max-width: 100%;
+}
+
+.authority-image-clip>img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Floating Photos Style */
+.floating-photo {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.floating-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.1) brightness(1.05);
+    -webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+    mask-image: radial-gradient(circle, black 60%, transparent 100%);
+    /* Efeito esfumaçado nas bordas */
+}
+
+.floating-photo:hover {
+    transform: scale(1.15) rotate(5deg);
+    z-index: 20;
+}
+
+.photo-1 {
+    top: -20px;
+    left: -40px;
+}
+
+.photo-2 {
+    bottom: 40px;
+    right: -40px;
+}
+
+.photo-3 {
+    top: 40%;
+    left: -60px;
+}
+
+@keyframes float-slow {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.floating-photo {
+    animation: float-slow 4s ease-in-out infinite;
+}
+
+.photo-2 {
+    animation-delay: -1.5s;
+}
+
+.photo-3 {
+    animation-delay: -3s;
+}
+
 .meta-data {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
