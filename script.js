@@ -1,37 +1,30 @@
-// config AOS
-document.addEventListener('DOMContentLoaded', () => {
-    // Inicializar AOS
-    if (typeof AOS !== 'undefined') {
-        AOS.init({
-            disableMutationObserver: true,
-            once: true,
-            offset: 50,
-            duration: 800,
-            easing: 'ease-out-cubic'
-        });
-    }
+// FAQ Accordion Logic
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const item = question.parentNode;
+        const isActive = item.classList.contains('active');
 
-    // Funcionalidade do Accordion FAQ
-    const faqItems = document.querySelectorAll('.faq-item');
-    faqItems.forEach(item => {
-        const header = item.querySelector('.faq-header');
-        
-        header.addEventListener('click', () => {
-            const isOpen = item.classList.contains('open');
-            
-            // Fechar todos
-            faqItems.forEach(faq => {
-                faq.classList.remove('open');
-                const content = faq.querySelector('.faq-content');
-                if(content) content.style.maxHeight = null;
-            });
-            
-            // Abrir selecionado
-            if (!isOpen) {
-                item.classList.add('open');
-                const content = item.querySelector('.faq-content');
-                if(content) content.style.maxHeight = content.scrollHeight + "px";
-            }
+        // Close all other items
+        document.querySelectorAll('.faq-item').forEach(otherItem => {
+            otherItem.classList.remove('active');
         });
+
+        // Toggle current item
+        if (!isActive) {
+            item.classList.add('active');
+        }
+    });
+});
+
+// Smooth Scroll for Anchors
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     });
 });

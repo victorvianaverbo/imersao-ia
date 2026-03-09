@@ -2,8 +2,8 @@
 
 ## Hero
 - Headline: Seu produto low ticket no ar. Sua página vendendo. Em 2 horas.
-- Subheadline: O **Protocolo Antigravity** — uma engenharia de agentes autônomos que coloca sua oferta no ar por você — sem equipe, sem mensalidade de ferramentas, sem precisar de habilidades técnicas.
-- CTA: QUERO ATIVAR O PROTOCOLO (R$ 37)
+- Subheadline: Uma engenharia de **agentes autônomos** que coloca sua oferta no ar por você — sem equipe, sem mensalidade de ferramentas, sem precisar de habilidades técnicas.
+- CTA: ATIVAR AGENTES AGORA (R$ 37)
 
 ## Seção: O Problema
 - Título: Você trava antes de começar. E a culpa não é sua.
@@ -13,18 +13,18 @@
   Mesmo com o mar de IAs disponíveis, você ainda se perde nos comandos (prompts) e gasta fortunas em mensalidades que nunca se pagam. Você não precisa de mais um "curso de ChatGPT", você precisa de execução.
 
 ## Seção: A Solução (O Mecanismo)
-- Título: Conheça o Protocolo Antigravity: A Engenharia que Lança por Você.
+- Título: Conheça a Engenharia de Agentes Autônomos que coloca seu projeto no ar.
 - Conteúdo:
-  O **Protocolo Antigravity** não é um curso. É um sistema interativo de **Agentes Autônomos de IA** que trabalham em sincronia para construir seu lançamento.
+  Isso não é um curso. É um sistema interativo de **Agentes de IA** que trabalham em sincronia para colocar seu produto ou projeto de vendas no ar.
 
   Enquanto outros ensinam a "usar a ferramenta", nós entregamos o resultado final. São especialistas digitais que te guiam em cada decisão. Você responde as perguntas, aprova os direcionamentos e eles executam a parte pesada.
 
   - **Agente Estrategista:** Valida seu nicho, avatar e oferta.
   - **Agente Copywriter:** Escreve sua página inteira focada em conversão.
   - **Agente Web Designer:** Cria o layout visual profissional.
-  - **Agente DevOps:** Coloca seu site no ar, configurado e pronto para vender.
+  - **Agente Analista de Marketing:** Configura seu funil de vendas e prepara o projeto para o ar.
 
-  Tudo isso usando ferramentas 100% gratuitas. O único investimento é o acesso ao Protocolo.
+  Tudo isso usando ferramentas 100% gratuitas. O único investimento é o acesso de 1 ano ao sistema.
 
 ## Seção: O Que Você Vai Conquistar
 - Título: Ao final dessas 2 horas, você tem:
