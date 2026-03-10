@@ -28,3 +28,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// AOS Initialization with safe defaults (TBT optimization)
+document.addEventListener("DOMContentLoaded", () => {
+    if (typeof AOS !== 'undefined') {
+        AOS.init({
+            duration: 800,
+            once: true,
+            disableMutationObserver: true
+        });
+    }
+});

@@ -6,38 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protocolo Antigravity | Engenharia de Lançamento</title>
 
-    <!-- Preconnect e Fontes Premium (Anthropic Style) -->
+    <!-- Resource Hints e Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap"
         rel="stylesheet">
 
-    <!-- AOS CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect width='256' height='256' fill='none'/><path d='M237.5,70.5A29.8,29.8,0,0,0,215,61.9L161.4,8.3A29.9,29.9,0,0,0,140.2,0H108.6A29.9,29.9,0,0,0,87.4,8.3L33.8,61.9A30.2,30.2,0,0,0,25.3,83v18.7a30.2,30.2,0,0,0,8.5,21.1L87.4,176.4a29.9,29.9,0,0,0,21.2,8.3h31.6a29.9,29.9,0,0,0,21.2-8.3l53.6-53.6a30.2,30.2,0,0,0,8.5-21.1V83A29.8,29.8,0,0,0,237.5,70.5Z' fill='%230B0F19' stroke='%234F46E5' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/></svg>">
 
-    <!-- CSS Estático -->
+    <!-- Preloads & DNS -->
+    <link rel="dns-prefetch" href="https://unpkg.com">
+
+    <!-- CSS Estático Principal (Inline Critical e Async seriam o ideal, mas aqui mantemos sync por compatibilidade simples) -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Phosphor Icons -->
+    <!-- AOS CSS Integrado via unpkg sync -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Scripts (Deferidos) -->
     <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body class="noise">
 
-    <!-- Header / Nav -->
-    <nav class="nav-minimal">
-        <div class="container nav-container">
-            <div class="logo">
-                <span class="logo-symbol">E</span>
-                <span class="logo-text">Engenharia de Agentes</span>
-            </div>
-            <div class="nav-actions">
-                <a href="#solucao" class="nav-link">Como funciona</a>
-                <a href="#checkout" class="btn btn-nav">Acesso Imediato</a>
-            </div>
-        </div>
-    </nav>
+
 
     <!-- Hero Section: Arquetipo Split Assimetrico -->
     <section class="hero-engineering">
@@ -66,14 +63,14 @@
                         <i class="ph ph-arrow-right"></i>
                     </a>
                     <div class="hero-social-proof">
-                        <p>Junte-se a +1.500 engenheiros digitais</p>
+                        <p>Junte-se a nós</p>
                     </div>
                 </div>
             </div>
 
             <!-- Coluna Direita: Visual Technical (Hyros Style) -->
             <div class="hero-visual-tech">
-                <div class="terminal-frame" data-aos-active="true">
+                <div class="terminal-frame">
                     <div class="terminal-header">
                         <div class="terminal-dots"><span></span><span></span><span></span></div>
                         <div class="terminal-title">antigravity --run launch</div>
@@ -139,16 +136,21 @@
                     </div>
                 </div>
                 <div class="bento-card card-stat red-accent" data-aos="fade-up" data-aos-delay="100">
+                    <span class="card-tag">Web Designer</span>
+                    <div class="card-value">R$ 3.000+</div>
+                    <p>Programador da Página</p>
+                </div>
+                <div class="bento-card card-stat" data-aos="fade-up" data-aos-delay="200">
                     <span class="card-tag">Copywriter</span>
                     <div class="card-value">R$ 2.000+</div>
                     <p>Custo médio por página</p>
                 </div>
-                <div class="bento-card card-stat" data-aos="fade-up" data-aos-delay="200">
+                <div class="bento-card card-stat" data-aos="fade-up" data-aos-delay="300">
                     <span class="card-tag">Designer</span>
                     <div class="card-value">R$ 1.500+</div>
                     <p>Identidade visual</p>
                 </div>
-                <div class="bento-card card-stat" data-aos="fade-up" data-aos-delay="300">
+                <div class="bento-card card-stat" data-aos="fade-up" data-aos-delay="400">
                     <span class="card-tag">Ferramentas</span>
                     <div class="card-value">R$ 497/mês</div>
                     <p>Mensalidades infinitas</p>
@@ -157,32 +159,81 @@
         </div>
     </section>
 
-    <!-- Seção 3: A Solução (Agentes Autônomos) -->
-    <section class="section agents-reveal dark-section">
-        <div class="container container-narrow">
-            <h2 class="section-title-serif text-white" data-aos="fade-up">A Engenharia que <br> <span
-                    class="serif-accent">Executa seu Projeto.</span></h2>
-            <p class="section-desc text-muted" data-aos="fade-up">Isso não é um curso. É um sistema interativo de
-                Agentes de IA que trabalham em sincronia para colocar seu produto no ar.</p>
+    <!-- Seção 3: A Solução (Agentes Autônomos Showcase) -->
+    <section class="section agents-showcase dark-section" id="agentes">
+        <div class="container showcase-grid">
+            <div class="showcase-sticky" data-aos="fade-right">
+                <span class="badge-tech badge-glow" style="margin-bottom: 1.5rem;">Mecanismo Exclusivo</span>
+                <h2 class="section-title-serif text-white">
+                    A Engenharia que <br>
+                    <span class="serif-accent">Executa seu Projeto.</span>
+                </h2>
+                <p class="section-desc text-muted" style="margin-bottom: 2rem;">
+                    Isso não é um curso. É um sistema interativo de <strong>Agentes de IA</strong> que trabalham em
+                    sincronia para colocar seu produto ou projeto de vendas no ar. Você responde as perguntas, aprova os
+                    direcionamentos e eles executam a parte pesada.
+                </p>
+                <div class="target-list" style="margin-bottom: 2rem;">
+                    <li style="font-size: 1rem;"><i class="ph-fill ph-check-circle"></i> O único investimento é o acesso
+                        de 1 ano.</li>
+                    <li style="font-size: 1rem;"><i class="ph-fill ph-check-circle"></i> Ferramentas 100% gratuitas.
+                    </li>
+                </div>
+            </div>
 
-            <div class="agents-core-container">
-                <div class="agents-core-pulse"></div>
-                <div class="agents-orbit">
-                    <div class="agent-capsule" data-aos="scale-in" data-aos-delay="100">
-                        <i class="ph ph-strategy"></i>
-                        <h4>Estrategista</h4>
+            <div class="showcase-scroll">
+                <div class="agent-card glass-panel" data-aos="fade-up">
+                    <div class="agent-number">01</div>
+                    <div class="agent-icon"><i class="ph ph-compass"></i></div>
+                    <div class="agent-content">
+                        <h3>Agente de Descoberta</h3>
+                        <p>Define seu nicho, produto e avatar com base em dados reais do mercado.</p>
                     </div>
-                    <div class="agent-capsule" data-aos="scale-in" data-aos-delay="200">
-                        <i class="ph ph-pen-nib"></i>
-                        <h4>Copywriter</h4>
+                </div>
+
+                <div class="agent-card glass-panel" data-aos="fade-up" data-aos-delay="50">
+                    <div class="agent-number">02</div>
+                    <div class="agent-icon"><i class="ph ph-magnifying-glass"></i></div>
+                    <div class="agent-content">
+                        <h3>Pesquisa de Mercado</h3>
+                        <p>Analisa concorrentes, identifica as dores do público e mapeia o gap da sua oferta.</p>
                     </div>
-                    <div class="agent-capsule" data-aos="scale-in" data-aos-delay="300">
-                        <i class="ph ph-paint-brush"></i>
-                        <h4>Designer</h4>
+                </div>
+
+                <div class="agent-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+                    <div class="agent-number">03</div>
+                    <div class="agent-icon"><i class="ph ph-book-open"></i></div>
+                    <div class="agent-content">
+                        <h3>Agente Narrativa</h3>
+                        <p>Constrói sua identidade de comunicador e a big idea que diferencia seu produto de todos os
+                            outros.</p>
                     </div>
-                    <div class="agent-capsule" data-aos="scale-in" data-aos-delay="400">
-                        <i class="ph ph-chart-line-up"></i>
-                        <h4>Analista de Marketing</h4>
+                </div>
+
+                <div class="agent-card glass-panel" data-aos="fade-up" data-aos-delay="150">
+                    <div class="agent-number">04</div>
+                    <div class="agent-icon"><i class="ph ph-pen-nib"></i></div>
+                    <div class="agent-content">
+                        <h3>Agente Copywriter</h3>
+                        <p>Escreve sua página inteira focada em conversão.</p>
+                    </div>
+                </div>
+
+                <div class="agent-card glass-panel highlight-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="agent-number">05</div>
+                    <div class="agent-icon"><i class="ph-fill ph-paint-brush-broad"></i></div>
+                    <div class="agent-content">
+                        <h3>Web Designer</h3>
+                        <p>Cria o layout visual profissional.</p>
+                    </div>
+                </div>
+
+                <div class="agent-card glass-panel highlight-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="agent-number">06</div>
+                    <div class="agent-icon"><i class="ph-fill ph-chart-line-up"></i></div>
+                    <div class="agent-content">
+                        <h3>Analista de Marketing</h3>
+                        <p>Configura seu funil de vendas e prepara o projeto para o ar.</p>
                     </div>
                 </div>
             </div>
@@ -251,14 +302,11 @@
     <section class="section segment-authority">
         <div class="container container-narrow text-center">
             <div class="authority-text" data-aos="fade-up" style="padding-left: 0;">
-                <span class="meta-data">ENGINEER_01 // VICTOR_VIANA</span>
+                <span class="meta-data">// VICTOR_VIANA</span>
                 <blockquote class="serif-quote">
                     "Minha missão foi codificar a inteligência de uma agência de elite em agentes autônomos para que
                     qualquer pessoa consiga o mesmo resultado, sem o mesmo custo."
                 </blockquote>
-                <p>Victor Viana é o arquiteto por trás da Engenharia de Agentes Autônomos. Formado pela FGV e
-                    responsável por mais de R$ 10 milhões em faturamento digital, ele democratizou a execução de
-                    alta performance através da IA.</p>
             </div>
         </div>
     </section>
@@ -275,8 +323,7 @@
 
                 <div class="offer-features">
                     <div class="offer-feature"><i class="ph ph-check-circle"></i> 1 Ano de Acesso à Engenharia</div>
-                    <div class="offer-feature"><i class="ph ph-check-circle"></i> Todos os 4 Agentes de IA</div>
-                    <div class="offer-feature"><i class="ph ph-check-circle"></i> Guia de Funil de Vendas Gratuito</div>
+                    <div class="offer-feature"><i class="ph ph-check-circle"></i> Todos os Agentes de IA</div>
                 </div>
 
                 <div class="offer-price-box">
@@ -363,15 +410,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 800,
-            once: true,
-            disableMutationObserver: true
-        });
-    </script>
 </body>
 
 </html>

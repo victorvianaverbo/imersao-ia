@@ -19,7 +19,9 @@
 
   Enquanto outros ensinam a "usar a ferramenta", nós entregamos o resultado final. São especialistas digitais que te guiam em cada decisão. Você responde as perguntas, aprova os direcionamentos e eles executam a parte pesada.
 
-  - **Agente Estrategista:** Valida seu nicho, avatar e oferta.
+  - **Agente de Descoberta:** Define seu nicho, produto e avatar com base em dados reais do mercado.
+  - **Agente de Pesquisa de Mercado:** Analisa concorrentes, identifica as dores do público e mapeia o gap da sua oferta.
+  - **Agente de Narrativa:** Constrói sua identidade de comunicador e a big idea que diferencia seu produto de todos os outros.
   - **Agente Copywriter:** Escreve sua página inteira focada em conversão.
   - **Agente Web Designer:** Cria o layout visual profissional.
   - **Agente Analista de Marketing:** Configura seu funil de vendas e prepara o projeto para o ar.
