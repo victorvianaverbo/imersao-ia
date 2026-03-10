@@ -1,71 +1,71 @@
 # Copy - Método Funil IA
 
 ## Hero
-- Headline: Seu produto low ticket no ar. Sua página vendendo. Em 2 horas.
-- Subheadline: Uma engenharia de **agentes autônomos** que coloca sua oferta no ar por você — sem equipe, sem mensalidade de ferramentas, sem precisar de habilidades técnicas.
-- CTA: ATIVAR AGENTES AGORA (R$ 37)
+- Headline: Seu produto no ar. Sua página vendendo. Em 2 horas.
+- Subheadline: Um kit de IA guia você, passo a passo, da ideia até o lançamento — sem equipe, sem mensalidade de ferramentas, sem enrolação.
+- CTA: QUERO LANÇAR MEU PRODUTO (R$ 37)
 
 ## Seção: O Problema
 - Título: Você trava antes de começar. E a culpa não é sua.
 - Conteúdo:
   O problema não é falta de ideia. É que lançar parece exigir uma equipe inteira: alguém para escrever, alguém para criar o visual, alguém para montar o site, alguém para anunciar. Sem isso, você vive em um ciclo infinito de paralisia.
 
-  Mesmo com o mar de IAs disponíveis, você ainda se perde nos comandos (prompts) e gasta fortunas em mensalidades que nunca se pagam. Você não precisa de mais um "curso de ChatGPT", você precisa de execução.
+  E mesmo com o mar de IAs disponíveis, você ainda não sabe como usar isso para lançar de verdade. Você abre o ChatGPT, faz uma pergunta genérica e recebe uma resposta genérica. O produto continua na sua cabeça. Você não precisa de mais uma ferramenta — você precisa do mapa.
 
 ## Seção: A Solução (O Mecanismo)
-- Título: Conheça a Engenharia de Agentes Autônomos que coloca seu projeto no ar.
+- Título: O kit que guia você do zero ao lançamento em 2 horas.
 - Conteúdo:
-  Isso não é um curso. É um sistema interativo de **Agentes de IA** que trabalham em sincronia para colocar seu produto ou projeto de vendas no ar.
+  Isso não é um curso. É um kit de IA interativo que trabalha junto com você para colocar seu produto no ar.
 
-  Enquanto outros ensinam a "usar a ferramenta", nós entregamos o resultado final. São especialistas digitais que te guiam em cada decisão. Você responde as perguntas, aprova os direcionamentos e eles executam a parte pesada.
+  Você recebe o mapa, a IA executa junto com você. São especialistas digitais que te guiam em cada decisão, pedem as informações certas e entregam o resultado pronto. Você não precisa saber nada de tecnologia — só responder perguntas simples e aprovar as entregas.
 
-  - **Agente de Descoberta:** Define seu nicho, produto e avatar com base em dados reais do mercado.
-  - **Agente de Pesquisa de Mercado:** Analisa concorrentes, identifica as dores do público e mapeia o gap da sua oferta.
-  - **Agente de Narrativa:** Constrói sua identidade de comunicador e a big idea que diferencia seu produto de todos os outros.
-  - **Agente Copywriter:** Escreve sua página inteira focada em conversão.
-  - **Agente Web Designer:** Cria o layout visual profissional.
-  - **Agente Analista de Marketing:** Configura seu funil de vendas e prepara o projeto para o ar.
+  - **Defina seu produto:** Nicho, avatar e oferta validados com base em dados reais do mercado.
+  - **Construa sua mensagem:** O ângulo que diferencia você e faz o cliente entender por que comprar de você.
+  - **Escreva sua página:** Copy focada em conversão, criada especificamente para o seu produto.
+  - **Lance seu site:** Visual profissional, otimizado para celular, no ar com link pronto.
 
-  Tudo isso usando ferramentas 100% gratuitas. O único investimento é o acesso de 1 ano ao sistema.
+  Tudo isso usando ferramentas 100% gratuitas. O único investimento é o acesso de 1 ano ao kit.
 
 ## Seção: O Que Você Vai Conquistar
 - Título: Ao final dessas 2 horas, você tem:
 - Conteúdo:
-  - **Produto Definido** — Nicho e oferta validados pela IA com base em dados reais.
-  - **Copy de Alta Conversão** — O ângulo exato para vender seu low ticket.
-  - **Página de Vendas Profissional** — Visual premium, otimizada para celular.
-  - **Lançamento Concluído** — Seu link pronto para receber tráfego e vendas hoje.
+  - **Seu produto definido** — Nicho, avatar e oferta validados pelo mercado.
+  - **Sua mensagem pronta** — O ângulo exato que diferencia você de todo mundo.
+  - **Sua página no ar** — Visual profissional, copy que converte, otimizada para celular.
+  - **Seu lançamento feito** — Link pronto para receber os primeiros clientes hoje.
 
 ## Seção: Para Quem É
-- Título: O Protocolo Antigravity foi feito para você se:
+- Título: Este kit foi feito para você se:
 - Conteúdo:
   - Você quer colocar um produto digital no ar sem gastar R$ 3.000+ com freelancers.
   - Já tentou criar sua landing page, mas desistiu na complexidade técnica.
-  - Quer aproveitar o poder da IA como um **colaborador de execução**, não apenas para gerar textos genéricos.
+  - Comprou alguma ferramenta de IA mas não sabe como usá-la para lançar de verdade.
+  - Quer sair do modo "vou fazer quando tiver tudo pronto" e realmente lançar.
 
 ## Seção: Autoridade
-- Título: Quem criou a Engenharia?
-- Conteúdo: Sou o **Victor Viana**. Nos últimos 5 anos, participei de mais de 100 projetos digitais, gerando mais de R$ 10 milhões em resultados do checkout. Sou fundador do Metrika Pro e pós-graduado pela FGV. Desenvolvi o Protocolo Antigravity para democratizar a tecnologia de ponta, permitindo que qualquer pessoa lance seu projeto com a precisão de uma agência de elite.
+- Título: Quem criou o kit?
+- Conteúdo: Sou o **Victor Viana**. Nos últimos 5 anos, participei de mais de 100 projetos digitais, gerando mais de R$ 10 milhões em resultados do checkout. Sou fundador do Metrika Pro e pós-graduado pela FGV. Condensei tudo isso num kit que guia qualquer pessoa — do zero ao lançamento — com a precisão de uma agência de elite, sem precisar de equipe ou ferramentas pagas.
 
 ## Seção: Ancoragem e Oferta
-- Título: O seu lançamento pelo preço de um almoço.
+- Título: Seu lançamento pelo preço de um almoço.
 - Conteúdo:
-  - **Agência/Freelancers:** Copywriter + Designer + Setup — R$ 5.000+ e dias de espera.
-  - **Protocolo Antigravity:** Sua oferta no ar em 120 minutos. Ferramentas gratuitas. R$ 37.
+  - **Modelo tradicional:** Copywriter + Designer + Setup de funil — R$ 5.000+ e semanas de espera.
+  - **Este kit:** Você mesmo faz, em 2 horas, com orientação de IA. R$ 37.
+  - As ferramentas que usamos são gratuitas. Você só investe R$ 37 no mapa.
   - **Acesso de 1 Ano:** Use para lançar quantos produtos quiser durante 12 meses.
   - **Oferta de Lançamento:** De ~~R$ 297~~ por apenas **R$ 37**.
-- CTA: QUERO ATIVAR O PROTOCOLO AGORA
+- CTA: QUERO LANÇAR MEU PRODUTO AGORA
 
 ## FAQ
-- Pergunta: O que é exatamente esse Protocolo?
-  Resposta: É uma implementação guiada por agentes de IA inteligentes que fazem o trabalho técnico e de criação por você, dentro do ambiente Antigravity.
-- Pergunta: Preciso pagar ferramentas extras?
-  Resposta: Não. O Protocolo foi desenhado para usar apenas recursos gratuitos. Seu único custo é o acesso à tecnologia.
+- Pergunta: O que é exatamente esse kit?
+  Resposta: É uma sequência guiada por IA que faz o trabalho técnico e de criação junto com você — do zero até o site no ar. Você responde perguntas simples e o kit entrega os resultados.
+- Pergunta: Preciso pagar alguma ferramenta de IA?
+  Resposta: Não. Todas as ferramentas usadas no kit são gratuitas. O único valor que você paga são os R$ 37 pelo treinamento.
 - Pergunta: E se eu não tiver um produto pronto?
-  Resposta: O Agente Estrategista te ajuda a definir sua oferta logo no início do processo.
+  Resposta: O primeiro passo do kit é justamente te ajudar a definir sua oferta com base no mercado. Você não precisa chegar com nada pronto.
 - Pergunta: É difícil de usar?
-  Resposta: É como conversar no WhatsApp. Você responde perguntas simples e a engenharia de agentes cuida de toda a montagem.
+  Resposta: É como conversar no WhatsApp. Você responde perguntas simples e o kit cuida de toda a montagem.
 
 ## Garantia
 - Título: Garantia de Blindagem Anti-Risco.
-- Conteúdo: Use o Protocolo por 7 dias. Se você não sentir que os Agentes Autônomos economizaram meses do seu tempo, devolvo seu dinheiro integralmente. Sem perguntas, sem burocracia.
+- Conteúdo: Use o kit por 7 dias. Se você não sentir que a IA economizou meses do seu tempo, devolvo seu dinheiro integralmente. Sem perguntas, sem burocracia.
