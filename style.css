@@ -858,30 +858,76 @@ body {
     font-size: 1.5rem;
 }
 
-/* Autoridade (Editorial) */
+/* Autoridade (O Arquiteto - Split Asimetrico) */
+.segment-authority {
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
 .authority-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 5rem;
     align-items: center;
 }
 
-.authority-text {
-    padding-left: 2rem;
-}
-
-.authority-image-clip {
-    border-radius: 12px;
-    overflow: visible;
-    /* Permitir que as fotos flutuem para fora */
+.authority-gallery {
     position: relative;
-    max-width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
 }
 
-.authority-image-clip>img {
+.img-wrapper {
+    position: absolute;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.img-wrapper img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
-    border-radius: 12px;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.img-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.main-img {
+    width: 320px;
+    height: 420px;
+    top: 0;
+    left: 10%;
+    z-index: 2;
+}
+
+.secondary-img {
+    width: 250px;
+    height: 250px;
+    bottom: 20px;
+    right: 0;
+    z-index: 1;
+    border-color: rgba(79, 70, 229, 0.3);
+}
+
+.authority-text-content {
+    text-align: left;
+}
+
+.authority-text {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 4px solid var(--accent);
+}
+
+.authority-text::before {
+    display: none;
 }
 
 /* Floating Photos Style */
