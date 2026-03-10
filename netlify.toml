@@ -1,3 +1,6 @@
 [build]
   command = "echo 'Deploying static files...'"
   publish = "."
+
+[images]
+  remote_images = ["https://pbs\\.twimg\\.com/.*"]
